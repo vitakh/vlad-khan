@@ -10,13 +10,13 @@ const Home = () => {
     <div className="row d-flex align-items-center">
   <div className="col-6 text-center">
     <figure className="figure">
-      <img src="/images/wp.png" className="figure-img mx-auto d-block" alt="Уильям Петти"></img>
+      <img src="/images/wp.png" className="figure-img mx-auto d-block img-fluid" alt="Уильям Петти"></img>
       <figcaption className="figure-caption text-center">Уильям Петти (1623–1687)</figcaption>
     </figure>
   </div>
   <div className="col-6 text-center">
     <figure className="figure">
-      <img src="/images/ak.png" className="figure-img mx-auto d-block" alt="Адольф Кетле"></img>
+      <img src="/images/ak.png" className="figure-img mx-auto d-block img-fluid" alt="Адольф Кетле"></img>
       <figcaption className="figure-caption text-center">Адольф Кетле (1796-1874)</figcaption>
     </figure>
   </div>
