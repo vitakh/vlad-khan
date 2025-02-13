@@ -26,7 +26,7 @@ const App = () => {
       <div className= "row">
         <div className={`col-12 col-md-2 d-flex flex-column align-items-center p-0 ${isSidebarOpen ? 'd-flex' : 'd-none'} d-md-flex`} style={{background: "#2E75B6"}}>
           <img src="/images/oval.png" className="img-fluid" alt="About"></img>
-          <Sidebar />
+          <Sidebar toggleSidebar={toggleSidebar}/>
         </div>
         <div className="col-12 col-xl-10 col-lg-10 col-md-10 col-sm-12 flex-grow-1" style={{ background: "#ECF3F4", overflowX: "hidden", overflowY: "auto", minHeight: "100vh"}}>
         <button
