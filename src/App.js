@@ -22,14 +22,14 @@ const App = () => {
         <Sidebar />
       </div>
         <div className="flex-grow-1 d-flex flex-column">
-          {/* Global Title */}
+          {/* style={{fontFamily: "Times New Roman, Times, serif", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)", color: "#203864", fontWeight: "bold", maxWidth: "70%", margin: "0 auto", wordWrap: "break-word", wordBreak: "break-word"}} */}
           <header className="text-center pt-3" style={{ background: "white" }}>
-            <h1 className="global-title">
+            <h1 style={{fontFamily: "Times New Roman, Times, serif", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)", color: "#203864", fontWeight: "bold", maxWidth: "70%", margin: "0 auto", wordWrap: "break-word", wordBreak: "break-word"}}>
               Применение средних величин числовых наборов в статистическом
               анализе
             </h1>
-            <hr></hr>
-            <hr></hr>
+            <hr style={{borderWidth: "3px", opacity: "1", margin: "3px"}}></hr>
+            <hr style={{borderWidth: "3px", opacity: "1", margin: "3px"}}></hr>
           </header>
           <div className="p-4">
             <Routes>
