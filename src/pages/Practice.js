@@ -442,7 +442,7 @@ const Practice = () => {
             <InlineMath math="\frac{\sqrt{x}}{\sqrt{y}} +\frac{\sqrt{y}}{\sqrt{x}} = \frac{25}{12}" />
             . Положив <InlineMath math="q = \frac{\sqrt{x}}{\sqrt{y}}" />,{" "}
             получим квадратное уравнение{" "}
-            <InlineMath math="q^2 - \frac{25q}{12} + 1 = 0" />. Его корни{" "}
+            <InlineMath math="q^2 - \frac{25}{12}q + 1 = 0" />. Его корни{" "}
             <InlineMath math="q_1 = \frac{4}{3}" /> и{" "}
             <InlineMath math="q_2 = \frac{3}{4}" />. Соответственно, x/y=16/9
             или 9/16. Нам нужно отношение меньшего числа к большему, поэтому
