@@ -10,14 +10,14 @@ const Theory4 = () => {
       <p>Среднее арифметическое имеет смысл тогда, когда рассчитывается для качественно однородной совокупности.</p>
       <p><span className="fw-bold">Средняя арифметическая простая</span> вычисляется по формуле:</p>
       <div>
-      <BlockMath math="\overline{x} = \frac{X_1 + X_2 + \dots + X_n}{n} = \frac{\sum_{i=1}^{n} X_i}{n}" />
+      <BlockMath math="\rm{\overline{x} = \frac{x_1 + x_2 + \dots + x_n}{n} = \frac{\sum_{i=1}^{n} x_i}{n}}" />
       </div>
-      <p style={{textIndent: "20px"}}>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">n</span> – количество единиц совокупности. Средняя арифметическая простая используется в тех случаях, когда расчет осуществляется по не сгруппированным данным.</p>
+      <p style={{textIndent: "20px"}}>где х<sub>i</sub> – вариант, а n – количество единиц совокупности. Средняя арифметическая простая используется в тех случаях, когда расчет осуществляется по не сгруппированным данным.</p>
       <p><span className="fw-bold">Средняя арифметическая взвешенная</span> вычисляется по формуле:</p>
       <div>
-      <BlockMath math="\overline{x} = \frac{\sum x_i f_i}{\sum f_i}" />
+      <BlockMath math="\rm{\overline{x} = \frac{\sum x_i f_i}{\sum f_i}}" />
       </div>
-      <p style={{textIndent: "20px"}}>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">f<sub>i</sub></span> – частота или статистический вес.
+      <p style={{textIndent: "20px"}}>где х<sub>i</sub> – вариант, а f<sub>i</sub> – частота или статистический вес.
       Используется в случаях, расчет средней производится по сгруппированным данным или вариационным рядам.</p>
       <p className="fw-bold">Свойства среднего арифметического:</p>
       <ol>
