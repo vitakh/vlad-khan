@@ -12,14 +12,18 @@ const Theory4 = () => {
       <div>
       <BlockMath math="\overline{x} = \frac{X_1 + X_2 + \dots + X_n}{n} = \frac{\sum_{i=1}^{n} X_i}{n}" />
       </div>
-      <p>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">n</span> – количество единиц совокупности. Средняя арифметическая простая используется в тех случаях, когда расчет осуществляется по не сгруппированным данным.</p>
+      <p style={{textIndent: "20px"}}>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">n</span> – количество единиц совокупности. Средняя арифметическая простая используется в тех случаях, когда расчет осуществляется по не сгруппированным данным.</p>
       <p><span className="fw-bold">Средняя арифметическая взвешенная</span> вычисляется по формуле:</p>
       <div>
       <BlockMath math="\overline{x} = \frac{\sum x_i f_i}{\sum f_i}" />
       </div>
-      <p>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">f<sub>i</sub></span> – частота или статистический вес.
-Используется в случаях, расчет средней производится по сгруппированным данным или вариационным рядам. 
-</p>
+      <p style={{textIndent: "20px"}}>где <span className="fst-italic">х<sub>i</sub></span> – вариант, а <span className="fst-italic">f<sub>i</sub></span> – частота или статистический вес.
+      Используется в случаях, расчет средней производится по сгруппированным данным или вариационным рядам.</p>
+      <p className="fw-bold">Свойства среднего арифметического:</p>
+      <ol>
+        <li>Если каждое число набора увеличить (уменьшить) на одно и то же число <span className="fst-italic">a</span>, то среднее арифметическое набора увеличится (уменьшится) на это же число <span className="fst-italic">a</span>.</li>
+        <li>Если каждое число набора умножить на одно и то же число <span className="fst-italic">b</span>, то среднее арифметическое набора также умножится на это число <span className="fst-italic">b</span>.</li>
+      </ol>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Theory5 = () => {
       <div>
       <BlockMath math="\overline{X} = \frac{\sum w_i}{\sum \frac{w_i}{x_i}}" />
       </div>
-      <p>где <span className="fst-italic">w<sub>i</sub>=х<sub>i</sub>∙f<sub>i</sub></span> – вариант, откуда <span className="fst-italic">f = w/x</span>.
+      <p style={{textIndent: "20px"}}>где <span className="fst-italic">w<sub>i</sub>=х<sub>i</sub>∙f<sub>i</sub></span> – вариант, откуда <span className="fst-italic">f = w/x</span>.
       В качестве весов в данной формуле используются произведения единиц совокупности на значения признака (т. е. w = х · f ).</p>
       <p>Среднюю гармоническую простую следует использовать в случаях определения, например, средних затрат труда, времени, материалов на единицу продукции, на одну деталь по нескольким предприятиям, рабочим, занятым изготовлением одного и того же вида продукции.</p>
     </div>
